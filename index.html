@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubrica Contatti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rubrica Contatti</h1>
+
+        <button id="toggleListBtn">Mostra/Nascondi Contatti</button>
+
+        <table id="contactTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefono</th>
+                    <th>Email</th>
+                    <th>Azioni</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Contatti popolati via JavaScript -->
+            </tbody>
+        </table>
+
+        <h2>Aggiungi/Modifica Contatto</h2>
+        <div class="form">
+            <input type="text" id="nameInput" placeholder="Nome">
+            <input type="text" id="phoneInput" placeholder="Telefono">
+            <input type="email" id="emailInput" placeholder="Email">
+            <button id="addContactBtn">Aggiungi/Modifica Contatto</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
